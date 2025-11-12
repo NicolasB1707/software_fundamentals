@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="Flowgorithm"/>
+        <attribute name="authors" value="nn537"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-11-10 02:33:23 p.&#160;m."/>
+        <attribute name="created" value="bm41Mzc7REVTS1RPUC0xMVI2VUpWOzIwMjUtMTEtMTA7MDI6MDQ6NDYgcC7CoG0uOzMwMjk="/>
+        <attribute name="edited" value="bm41Mzc7REVTS1RPUC0xMVI2VUpWOzIwMjUtMTEtMTA7MDI6MzM6MjMgcC7CoG0uOzE7MzEzNA=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <comment text="initialize variables or constans"/>
+            <declare name="num1, num2, add, subs, mult, div" type="Real" array="False" size=""/>
+            <comment text="inputs"/>
+            <input variable="num1"/>
+            <input variable="num2"/>
+            <comment text="processes"/>
+            <assign variable="add" expression="num1 + num2"/>
+            <assign variable="subs" expression="num1 - num2"/>
+            <assign variable="mult" expression="num1 * num2"/>
+            <assign variable="div" expression="num1 / num2"/>
+            <comment text="outputs"/>
+            <output expression="add" newline="True"/>
+            <output expression="subs" newline="True"/>
+            <output expression="mult" newline="True"/>
+            <output expression="div" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
