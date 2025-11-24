@@ -3,10 +3,10 @@ num1 = 0
 num2 = 0
 
 # Get number 1
-num1 = float(input("Enter value to number 1: "))
+num1 = float(input("Enter value to number 1:  "))
 
 # Get number 2
-num2 = float(input("Enter value to number 2: "))
+num2 = float(input("Enter value to number 2:  "))
 
 # Print math menu
 print("""Math menu:
@@ -44,3 +44,6 @@ if opt == 5:
 
 if opt < 1 or opt > 5:
     print("Invalid option")
+
+
+# Version revisada Nicolas /(o_o)/
