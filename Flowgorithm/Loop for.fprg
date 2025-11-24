@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="Loop for"/>
+        <attribute name="authors" value="nn537"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-11-21 09:07:01 p.&#160;m."/>
+        <attribute name="created" value="bm41Mzc7REVTS1RPUC0xMVI2VUpWOzIwMjUtMTEtMjE7MDU6NDk6NTggcC7CoG0uOzMwNDY="/>
+        <attribute name="edited" value="bm41Mzc7REVTS1RPUC0xMVI2VUpWOzIwMjUtMTEtMjE7MDk6MDc6MDEgcC7CoG0uOzE7MzE0MA=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="x" type="Integer" array="False" size=""/>
+            <declare name="i" type="Integer" array="False" size=""/>
+            <assign variable="i" expression="1"/>
+            <output expression="&quot;Please, enter a number(&gt;0&lt;=100):&quot;" newline="True"/>
+            <input variable="x"/>
+            <for variable="i" start="1" end="x" direction="inc" step="1">
+                <output expression="i" newline="True"/>
+            </for>
+            <output expression="&quot;ultima interaccion, para romper el ciclo:&quot;&amp;i" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
