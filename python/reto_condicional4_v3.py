@@ -19,6 +19,8 @@ print("""Math menu:
       [3]. Mult
       [4]. Div
       [5]. All
+
+      
 """)
 
 opt = int(input("Press any option [1 - 5]: "))
