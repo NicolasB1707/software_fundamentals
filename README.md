@@ -26,3 +26,9 @@ Aquí recojo código en Python, diagramas de flujo, lógica básica y diferentes
 *  Diagramación y pseudocódigo
 
 *  Uso inicial de Git y GitHub
+
+*  reto dados
+
+*  reto nomina
+  
+*  tinkercaed
