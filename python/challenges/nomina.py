@@ -96,8 +96,8 @@ def ingresar_empleados():
             total_feme += 1
         else:
             total_ot += 1
-        
-        continuar = input("\n¿Desea ingresar otro empleado? (si/no): ").lower()
+    
+        continuar = input("¿Desea ingresar otro empleado? (si/no): ").lower()
         if continuar != 'si':
             break
     
@@ -105,7 +105,7 @@ def ingresar_empleados():
     num_empleados = len(empleados)
     if num_empleados > 0:
         promedio_edades = total_edades / num_empleados
-        print("\n--- Nómina ---")
+        print("--- Nómina ---")
         print(f"Total de empleados ingresados: {num_empleados}")
         print(f"Total de empleados Femeninos: {total_feme}")
         print(f"Total de empleados Masculinos: {total_mas}")
